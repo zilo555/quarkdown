@@ -22,6 +22,14 @@ New locales have been added: Polish, Portuguese, Russian and Ukrainian.
 
 Thanks @emsspree!
 
+&nbsp;
+
+### Changed
+
+#### Added link-to-root in new docs projects
+
+When creating a `docs` project, `quarkdown create` now links the top-left title to the root document, for easier navigation back to the home page.
+
 ## [2.0.0] - 2026-04-23
 
 ### Added

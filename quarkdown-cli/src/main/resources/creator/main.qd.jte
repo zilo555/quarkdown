@@ -48,7 +48,7 @@ ${""}
 @if(docs && name != null)
 ${""}
 .pagemargin {topleft}
-    ${name}
+    [${name}](@)
 @endif
 @if(!docs && initialContent != null)
 ${""}
