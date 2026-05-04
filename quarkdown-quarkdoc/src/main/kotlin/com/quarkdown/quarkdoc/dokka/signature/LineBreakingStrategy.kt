@@ -107,7 +107,7 @@ private class SplitLineBreakingStrategy(
     }
 
     override fun PageContentBuilder.DocumentableContentBuilder.beforeReturn() {
-        lineContinuation()
+        breakLine()
     }
 
     private fun PageContentBuilder.DocumentableContentBuilder.lineContinuation() {

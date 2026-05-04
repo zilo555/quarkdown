@@ -75,7 +75,7 @@ class QuarkdownSignatureTest :
                 """
                 .func a:{Int} \
                       b:{Int} \
-                      c:{Int} \
+                      c:{Int}
                 -> Void
                 """.trimIndent(),
                 it,
@@ -90,7 +90,7 @@ class QuarkdownSignatureTest :
                 """
                 .func abcd:{Int} \
                         ef:{String} \
-                    ghijkl:{Int} \
+                    ghijkl:{Int}
                 -> Void
                 """.trimIndent(),
                 it,
@@ -105,7 +105,7 @@ class QuarkdownSignatureTest :
                 """
                 .func      abcd:{Int} \
                              ef:{String} \
-                 ghijklmnopqrst:{Int} \
+                 ghijklmnopqrst:{Int}
                 -> Void
                 """.trimIndent(),
                 it,
