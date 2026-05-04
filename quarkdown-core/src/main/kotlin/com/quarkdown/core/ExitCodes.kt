@@ -41,3 +41,8 @@ const val RUNTIME_ERROR_EXIT_CODE = 71
  * @see com.quarkdown.core.permissions.MissingPermissionException
  */
 const val MISSING_PERMISSION_EXIT_CODE = 72
+
+/**
+ * Exit code when execution times out, matching GNU `timeout` convention.
+ */
+const val TIMEOUT_EXIT_CODE = 124
